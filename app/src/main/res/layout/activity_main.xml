@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="168dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="72dp"
+        android:text="Country of Origin "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="118dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="72dp"
+        android:text="Product Category"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button"
+        android:layout_width="304dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="144dp"
+        android:backgroundЕ="@color/red"
+        android:paddingStart="95dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="95dp"
+        android:paddingBottom="12dp"
+        android:text="Export as CSV"
+        android:textSize="12sp"
+        app:cornerRadius="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="274dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="84dp"
+        android:text="Current Policies"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <ImageView
+        android:layout_width="132dp"
+        android:layout_height="83dp"
+        android:src="@android:drawable/star_big_on"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <EditText
+        android:layout_width="212dp"
+        android:layout_height="49dp"
+        android:text="Policy"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <EditText
+        android:layout_width="215dp"
+        android:layout_height="42dp"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="@color/white"
+        android:text="Origin Country"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <EditText
+        android:layout_width="228dp"
+        android:layout_height="41dp"
+        android:text="Brand"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <EditText
+        android:layout_width="205dp"
+        android:layout_height="42dp"
+        android:text="Product Category"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <TextView
+        android:layout_width="241dp"
+        android:layout_height="85dp"
+        android:text="Policies"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
